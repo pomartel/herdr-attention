@@ -57,7 +57,6 @@ function main() {
     });
 
   if (candidates.length === 0) {
-    notify("Nothing needs attention", "none");
     return;
   }
 
