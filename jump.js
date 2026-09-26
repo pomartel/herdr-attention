@@ -62,10 +62,6 @@ function main() {
 
   const target = candidates[0];
   herdr(["agent", "focus", target.pane_id]);
-
-  const others = candidates.length - 1;
-  const tail = others > 0 ? ` (+${others} more)` : "";
-  notify(`→ ${target.agent} ${target.agent_status}${tail}`, "none");
 }
 
 main();
